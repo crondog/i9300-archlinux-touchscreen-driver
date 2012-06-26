@@ -1,0 +1,4 @@
+A touchscreen driver for Arch Linux on i9300 (and possibly others) since I
+couldnt get evdev working
+
+gcc -Wall -Werror -lX11 -o myTouch myTouch.c
