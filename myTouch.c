@@ -130,9 +130,10 @@ void getInput(Display *display, Window root, char* devName) {
                     printf("REMOVE SLOTS: %d\n",slots);
                     
                     //We can click with one slot ;)
-                    if(slots == 0){
+                    /*if(slots == 0){
                         mouseClick(display, root, Button1);
-                    }
+                    }*/
+                    mouseClick(display, root, Button1);
                 }
             }
         }
